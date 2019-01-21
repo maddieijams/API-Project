@@ -5,6 +5,7 @@ const baseURL = 'https://ghibliapi.herokuapp.com/films';
 const button = document.querySelector('.button');
 button.addEventListener('click', fetchResults);
 
+const div = document.querySelector('#random');
 
 //result
 
@@ -32,9 +33,19 @@ function fetchResults(e) {
         const movie = randomValue.title;
         const description= randomValue.description;
 
-        let stringToInsert = `${movie}: ${description}`;
+        // let stringToInsert = `${movie}: ${description}`;
         
-        let textNode = document.createTextNode(stringToInsert);
-        random.appendChild(textNode)
+        // let textNode = document.createTextNode(stringToInsert);
+        // random.appendChild(textNode)
+
+        let h2 = document.createElement('h2');
+        h2.textContent = `${movie}`;
+        random.appendChild(h2);
+
+        let p = document.createElement('p');
+        p.textContent = `${description}`;
+        random.appendChild(p);
+
+
 }
 
