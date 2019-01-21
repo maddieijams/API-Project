@@ -1,0 +1,49 @@
+body {
+  background-color: #4DE7FE;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: white;
+  padding: 10px;
+}
+
+#random {
+  color: rgb(20, 20, 20);
+  margin-top: 80px;
+}
+
+.button {
+    margin-top: 110px;
+    margin-left: 190px;
+  }
+
+
+/* .button {
+  width: 10px;
+  height: 10px;
+  position: relative;
+} */
+  .generate {
+   background-color: white;
+   border: none;
+    border-radius: 8px; 
+  }
+
+  .generate:hover {
+    background-image: linear-gradient(rgb(116, 6, 241),rgb(224, 50, 216));
+    cursor: auto;
+  }
+  
+
+  /* .img {
+    background-image: url("../API-Project/assets/ghibli.webp");
+    background-color: transparent;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 10em;
+    left: 25em;
+  } */
+
+ 
