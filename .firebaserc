@@ -1,6 +1,5 @@
 {
   "projects": {
-    "totoroapi": "random-ghibli-api",
-    "apiproject": "random-ghibli-api"
+    "api": "random-ghibli-api"
   }
 }
