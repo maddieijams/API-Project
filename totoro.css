@@ -1,5 +1,5 @@
 body {
-  background-color: #4DE7FE;
+  background-image: url("./assets/ghiblilogo.jpg");
   font-family: 'Roboto', sans-serif;
 }
 
@@ -46,8 +46,6 @@ h1 {
     left: 25em;
   } */
 
-  #totoro {
-    background-image: url("./assets/ghiblilogo.jpg");
-  }
+ 
 
  
