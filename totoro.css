@@ -1,7 +1,7 @@
 body {
   background-image: url("./assets/totoro-wallpaper.png");
   background-position: -290px -290px;
-  font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
 h1 {
@@ -30,17 +30,19 @@ h1 {
     cursor: auto;
   }
   
+  
 
-  /* .img {
-    background-image: url("../API-Project/assets/ghibli.webp");
-    background-color: transparent;
-    width: 800px;
-    height: 500px;
-    position: absolute;
-    top: 10em;
-    left: 25em;
-  } */
 
+
+  @font-face {
+      font-family: 'chub_gothicregular';
+      src: url('chubgothic_1-webfont.woff2') format('woff2'),
+           url('chubgothic_1-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      
+  
+  }
  
 
  
