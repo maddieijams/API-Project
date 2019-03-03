@@ -1,9 +1,10 @@
 body {
   width: 100vw;
   height:100vh;
+  overflow: hidden;
   background-image: url("./assets/totoro-wallpaper.png");
-  background-position: -290px -290px;
-  background-repeat: no-repeat;
+  background-position: -65em -50em;
+  background-size: cover;
 }
 
 h1 {
